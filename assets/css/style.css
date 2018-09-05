@@ -1,0 +1,149 @@
+body {
+    padding: 0px 4px 0px 0px;
+    border-radius: 3px;
+    text-indent: 20px;
+    width: auto;
+    margin: 0px;
+    font-size: 18px;
+    line-height: 150%;
+    columns: #333333;
+    background-image: url(../images/background-image.jpg)
+}
+
+header {
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    height: 67px;
+}
+
+h1 {
+    background: teal;
+    position: relative;
+    width: 300px;
+    left: 150px;
+    top: -19px;
+    padding: 20px;
+    font-size: 28px;
+    color: #eeeeee;
+    text-align: left;  
+    font-family: 'Georgia', Times, Times New Roman, serif;  
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    top: -50px;
+    color: gray;
+    left: 800px;
+    margin-left: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.container {
+    width: 960px;
+    margin: 20px auto 100px auto;
+    padding: 30px 50px 60px 50px;
+    background: white;
+}
+
+#main-bio {
+    width: 100%;
+}
+
+h2 {
+    color: teal;
+    font-size: 26px;
+    border-bottom: 1px solid gray;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#bio-image {
+    float: left;
+    width: 280px;
+    height: 340px;
+    margin-right: 20px;
+}
+
+.about-p {
+    display: inline;
+    margin: left;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer {
+    width: 100%;
+    border-bottom: 35px solid #333333;
+    border-top: 5px solid teal;
+}
+
+.container-port {
+    width: 750px;
+    margin: 30px auto 80px auto;
+    padding: 30px 20px 40px 20px;
+    background: white;
+    height: 840px;
+}
+
+.box-one {
+    position: relative;
+    left: 0px;
+    top: 16px;
+}
+
+.port-p {
+    background: teal;
+    color: white;
+    width: 190px;
+    position: relative;
+    left: 20px;
+    top: -80px;
+    text-align:center;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.box-two {
+    position: relative;
+    top: -272px;
+    left: 270px;
+}
+
+.box-three {
+    position: relative;
+    top: -294px;
+}
+
+.box-four {
+    position: relative;
+    top: -580px;
+    left: 270px;
+}
+
+.box-five {
+    position: relative;
+    top: -600px;
+}
+
+.container-contact {
+    width: 750px;
+    margin: 30px auto 80px auto;
+    padding: 30px 20px 40px 20px;
+    background: white;
+    height: 300px;
+}
+
+input {
+    width: 100%;
+}
+
+.contact-submit {
+    width: 60px;
+}
+
+@media screen and (max-width: 980) {
+   
+}
+
