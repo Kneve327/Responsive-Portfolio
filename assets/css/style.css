@@ -148,8 +148,12 @@ input {
        position: relative;
        left: 0px;
        text-align: center;
-       width: 640px;
+       width: 650px !important;
        border-bottom: gray solid 2px;
+   }
+   a {
+    top: -100px !important;
+    left: 800px !important;
    }
    .container-one {
     color: gray;
@@ -190,40 +194,37 @@ input {
    }
    .container-port {
     position: relative;
-    width: 80%;
-    margin: 50px 7% 60px auto;
+    width: 80% !important;
+    margin: 50px 7% 60px auto !important;
     background: white;
     padding-bottom: 30px;
    }
 }
 
 @media screen and (max-width: 768px) {
-    #dontMove {
-        position: relative;
-        left: 0px;
-        text-align: center;
-        width: 640px;
-        border-bottom: gray solid 2px;
-}
-.container-one {
-    color: gray;
-    width: 700px;
-    margin: 2px 0px auto 0px;
-    padding: auto 5px auto 5px;
-    background: white;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    height: 50px;
-    border-bottom: gray solid 2px;
-   }
-   .container {
+#dontMove {
     position: relative;
-    width: 63%;
-    margin: 50px 20% 60px auto;
+    left: 0px;
+    text-align: center;
+    width: 200px;
+    border-bottom: gray solid 2px;
+}
+header {
+    width: 780px;
+}
+a {
+    left: 400px !important;
+}
+
+.container {
+    position: relative;
+    width: 65% !important;
+    margin: 50px 11% 60px auto !important;
     background: white;
     padding-bottom: 30px;
    }
    footer {
-    width: 700px;
+    width: 100%;
     margin-bottom: 0px;
    }
    #bio-image {
@@ -234,18 +235,14 @@ input {
    .container-contact {
     position: relative;
     width: 70%;
-    margin: 50px 20% 60px auto;
+    margin: 50px 12% 60px auto !important;
     background: white;
     padding-bottom: 30px;
-   }
-   .contactFooter {
-       width: 700px;
-       margin-bottom: 0px;
    }
    .container-port {
     position: relative;
     width: 70%;
-    margin: 50px 20% 60px auto;
+    margin: 50px 12% 60px auto !important;
     background: white;
     padding-bottom: 30px;
    }
@@ -256,28 +253,31 @@ input {
     position: relative;
     left: 0px;
     text-align: center;
-    width: 640px;
+    width: 270px;
     border-bottom: gray solid 2px;
 }
-.container-one {
+header {
+    width: 100%;
+}
+a {
+    position: relative;
+    text-decoration: none;
+    top: -50px;
     color: gray;
-    width: 700px;
-    margin: 2px 0px auto 0px;
-    padding: auto 5px auto 5px;
-    background: white;
+    left: 600px;
+    margin-left: 20px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    height: 50px;
-    border-bottom: gray solid 2px;
-   }
+}
+
    .container {
     position: relative;
-    width: 42%;
-    margin: 50px 40% 60px auto;
+    width: 60%;
+    margin: 50px 18% 60px auto;
     background: white;
     padding-bottom: 30px;
    }
    footer {
-    width: 700px;
+    width: 100%;
     margin-bottom: 0px;
    }
    #bio-image {
@@ -288,18 +288,14 @@ input {
    .container-contact {
     position: relative;
     width: 70%;
-    margin: 50px 20% 60px auto;
+    margin: 50px 15% 60px auto;
     background: white;
     padding-bottom: 30px;
-   }
-   .contactFooter {
-       width: 700px;
-       margin-bottom: 0px;
    }
    .container-port {
     position: relative;
     width: 70%;
-    margin: 50px 20% 60px auto;
+    margin: 50px 15% 60px auto;
     background: white;
     padding-bottom: 30px;
    }
